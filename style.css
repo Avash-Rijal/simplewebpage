@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    margin-left: 15em;
+    margin-right: 15em;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color: aliceblue;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+    background-color: rgb(126, 126, 126);
+    color: white;
+    height: 3em;
+}
+.nav:hover{
+    cursor: pointer;
+}
+.video{
+    margin-top: 1em;
+    margin-left: 0.6em;
+}
+.btf{
+    position: relative;
+    margin-top: 1em;
+}
+.btf>p{
+    position: absolute;
+}
+.images{
+    margin-top: 2em;
+    margin-left: 7.5em;
+    margin-right: 5em;
+}
+.images>.images1{
+    display: flex;
+    gap: 2em;
+}
+.images>.images1>div>p{
+    font-size: 3em;
+    font-weight: bold;
+}
+.images>.images2{
+    display: flex;
+    gap: 2em;
+    margin-top: 1em;
+}
+.natureImage{
+    position: relative;
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+.natureImage>.joinus{
+    position: absolute;
+    top: 1em;
+    margin-left: 11em;
+    text-align: center;
+    border: 0;
+    border-radius: 0.5em;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.25);
+}
+.joinus>p{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
+.joinus>p +p{
+    font-weight: normal;
+    font-size:1em;
+    margin-bottom: 5em;
+}
+button{
+    appearance: none;
+    width: 8em;
+    height: 2em;
+    border: 0;
+    border-radius: 0.5em;
+    margin:0em 4em 4em 4em;
+    color: white;
+    background-color: rgb(38, 36, 37);
+}
+button:hover{
+    cursor: pointer;
+}
